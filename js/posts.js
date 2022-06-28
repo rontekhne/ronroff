@@ -9,11 +9,13 @@
         let p = preview(data); // extrai uma amostra
         p += "..."; 
 
-        const div = document.createElement("div");
-        div.innerHTML = p;
+        const section = document.createElement("section");
+        section.innerHTML = 
+            p + 
+            `<br><button type="submit">Leia mais...</button>;`;
 
         const post = document.querySelector("#posts");
-        post.appendChild(div);
+        post.appendChild(section);
     }
 })()
 
