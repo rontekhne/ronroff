@@ -12,7 +12,7 @@
         const section = document.createElement("section");
         section.innerHTML = 
             p + 
-            `<br><button type="submit">Leia mais...</button>;`;
+            `<br><button onclick="openPost(${i})" type="submit">Leia mais...</button>;`;
 
         const post = document.querySelector("#posts");
         post.appendChild(section);
@@ -25,4 +25,8 @@ function preview(str) {
     }
 
     return str;
+}
+
+function openPost(index) {
+    window.location.href = `../post.html?id=${index}`;
 }
