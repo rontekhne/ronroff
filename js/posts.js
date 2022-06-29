@@ -28,5 +28,5 @@ function preview(str) {
 }
 
 function openPost(index) {
-    window.location.href = `https://rontekhne.github.io/post.html?id=${index}`;
+    window.location.href = `https://rontekhne.github.io/ronroff/post.html?id=${index}`;
 }
