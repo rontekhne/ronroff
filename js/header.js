@@ -3,10 +3,10 @@ function header()
     let h = `
     <header>
         <nav>
-            <h1>RonRoff</h1>
             <ul>
-                <li><a href="">sobre</a></li>
-                <li><a href="">contato</a></li>
+                <li class="logo"><a href="">RonRoff</a></li>
+                <li class="menu-link"><a href="">sobre</a></li>
+                <li class="menu-link"><a href="">contato</a></li>
             </ul>
         </nav>
     </header>
