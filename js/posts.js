@@ -1,7 +1,7 @@
-(async() => {
-    let id = [];
+let id = 3; // número de posts
 
-    for (let i = 1; i <= 3; i++) {
+(async() => {
+    for (let i = id; i > 0; i--) {
         const url = `https://raw.githubusercontent.com/rontekhne/ronroffposts/main/post${i}`;
         const response = await fetch(url);
         const data = await response.text();
