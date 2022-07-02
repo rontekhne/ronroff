@@ -4,13 +4,14 @@
 }
 
 header {
-    background-color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 header nav {}
 
 header nav ul {
-    padding: 0 0;
+    padding: 1em;
 }
 
 header nav ul li {
@@ -20,11 +21,45 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .logo {
-    font-size: 2em;
+    font-family: 'Faster One', cursive;
+    font-size: 1.5em;
 }
 
-.menu-link {}
+.menu-link {
+}
+
+.posts {   
+}
+
+article {
+    text-align: justify;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+h2 {
+    margin-top: 0.5em;
+}
+
+p {
+    margin-top: 0.5em;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em;
+    border-width: 1px;
+    border-color: grey;
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
