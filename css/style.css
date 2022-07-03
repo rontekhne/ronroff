@@ -3,6 +3,11 @@
     height: auto;
 }
 
+body {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2em;
+}
+
 header {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
@@ -25,11 +30,13 @@ header nav ul li a {
 }
 
 .logo {
-    font-family: 'Faster One', cursive;
-    font-size: 1.5em;
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
 }
 
 .menu-link {
+    font-size: 1.2em;
+    text-align: right;
 }
 
 .posts {   
