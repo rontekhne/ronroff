@@ -13,15 +13,18 @@ header {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
-header nav {}
+header nav {
+    padding-top: 1em;
+    padding-bottom: 3em;
+    padding-right: 1em;
+}
 
 header nav ul {
-    padding: 1em;
+    
 }
 
 header nav ul li {
     display: inline;
-    padding-right: 1em;
 }
 
 header nav ul li a {
@@ -31,12 +34,18 @@ header nav ul li a {
 
 .logo {
     font-family: 'Anton', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
+    float: left;
 }
 
 .menu-link {
+    padding-top: 0.2em;
     font-size: 1.2em;
-    text-align: right;
+    float: right;
+}
+
+.menu-link li {
+    margin-right: 20px;
 }
 
 .posts {   
